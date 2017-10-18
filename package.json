@@ -1,29 +1,94 @@
 {
-  "name": "le-challenge-s3",
-  "version": "1.0.1",
-  "description": "A S3 strategy for node-letsencrypt and lambda function for handling challenges",
-  "main": "lib/index.js",
-  "author": "Maythee Anegboonlap <null@llun.me>",
-  "license": "ISC",
+  "_args": [
+    [
+      {
+        "raw": "le-challenge-s3",
+        "scope": null,
+        "escapedName": "le-challenge-s3",
+        "name": "le-challenge-s3",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/mnt/61A95524259CB759/douleies/delivery-manager/letsencypt"
+    ]
+  ],
+  "_from": "le-challenge-s3@latest",
+  "_id": "le-challenge-s3@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/le-challenge-s3",
+  "_nodeVersion": "6.10.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/le-challenge-s3-1.0.1.tgz_1495550872592_0.5211974326521158"
+  },
+  "_npmUser": {
+    "name": "llun",
+    "email": "null@llun.in.th"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "le-challenge-s3",
+    "scope": null,
+    "escapedName": "le-challenge-s3",
+    "name": "le-challenge-s3",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/le-challenge-s3/-/le-challenge-s3-1.0.1.tgz",
+  "_shasum": "50b81525de38588128e00ca2322f5be89a8dbcd0",
+  "_shrinkwrap": null,
+  "_spec": "le-challenge-s3",
+  "_where": "/mnt/61A95524259CB759/douleies/delivery-manager/letsencypt",
+  "author": {
+    "name": "Maythee Anegboonlap",
+    "email": "null@llun.me"
+  },
+  "bugs": {
+    "url": "https://github.com/llun/le-challenge-s3/issues"
+  },
   "dependencies": {
     "aws-sdk": "^2.54.0"
   },
+  "description": "A S3 strategy for node-letsencrypt and lambda function for handling challenges",
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {},
+  "dist": {
+    "shasum": "50b81525de38588128e00ca2322f5be89a8dbcd0",
+    "tarball": "https://registry.npmjs.org/le-challenge-s3/-/le-challenge-s3-1.0.1.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/llun/le-challenge-s3.git"
-  },
+  "gitHead": "92967852b35eebf0f5bc66ca4d348bff92f66dfa",
+  "homepage": "https://github.com/llun/le-challenge-s3#readme",
   "keywords": [
     "node-greenlock",
     "letsencrypt",
     "s3",
     "aws"
   ],
-  "bugs": {
-    "url": "https://github.com/llun/le-challenge-s3/issues"
+  "license": "ISC",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "llun",
+      "email": "null@llun.in.th"
+    }
+  ],
+  "name": "le-challenge-s3",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llun/le-challenge-s3.git"
   },
-  "homepage": "https://github.com/llun/le-challenge-s3#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }
